@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from FallenRobot import LOGGER
-from FallenRobot.modules.users import get_user_id
+from Goku import LOGGER
+from Goku.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
