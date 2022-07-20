@@ -180,9 +180,9 @@ DEV_USERS.add(1964362058)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("Zeus", API_ID, API_HASH)
+telethn = TelegramClient("Goku", API_ID, API_HASH)
 
-pbot = Client("Zeus", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("Goku", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
