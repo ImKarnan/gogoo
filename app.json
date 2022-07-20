@@ -1,15 +1,15 @@
 {
-      "name": "Fallen Robot",
-      "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "name": "GokuXBot",
+      "description": "Telegram Group Management bot.",
+      "logo": "https://telegra.ph/file/07f91d036eb4759966e52.jpg",
       "keywords": [
          "telegram",
          "sexy",
          "group",
          "manager",
-         "Fallen"
+         "Goku"
       ],   
-   "repository": "https://github.com/AnonymousR1025/FallenRobot",
+   "repository": "https://github.com/ImKarnan/Goku",
    "addons": [
       {
          "options": {
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "1964362058"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -54,12 +54,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "anonymous_was_bot"
+         "value": "My_Dear_LightBright"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "OlympusChatting"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1356469075"
+         "value": "1964362058"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -146,7 +146,7 @@
       "DONATION_LINK": {
          "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Anonymous",
          "required": false,
-         "value": "https://t.me/anonymous_was_bot"
+         "value": "https://t.me/My_Dear_LightBright"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
