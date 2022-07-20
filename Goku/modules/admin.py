@@ -26,8 +26,8 @@ from Goku.modules.helper_funcs.extraction import (
     extract_user_and_text,
 )
 from Goku import SUPPORT_CHAT
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.helper_funcs.alternate import send_message
+from Goku.modules.log_channel import loggable
+from Goku.modules.helper_funcs.alternate import send_message
 
 
 @run_async
