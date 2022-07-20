@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, BigInteger, distinct, func
 
-from FallenRobot.modules.helper_funcs.msg_types import Types
-from FallenRobot.modules.sql import BASE, SESSION
+from Goku.modules.helper_funcs.msg_types import Types
+from Goku.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
