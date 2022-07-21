@@ -92,7 +92,7 @@ if ENV:
     WALL_API = os.environ.get("WALL_API", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.in")
-    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "LJMETG-DPHBCX-DGHJCD-TMFIGB-ARQ")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "FTVGAP-WKPWNN-QNSJNK-YTUYSA-ARQ")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
