@@ -8,7 +8,7 @@ from telethon.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions
 from telethon import types
-from FallenRobot.events import register
+from Goku.events import register
 from FallenRobot import telethn as tbot
 import os
 
