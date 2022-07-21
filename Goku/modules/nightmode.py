@@ -1,4 +1,4 @@
-from FallenRobot.modules.sql.night_mode_sql import (
+from Goku.modules.sql.night_mode_sql import (
     add_nightmode,
     rmnightmode,
     get_all_chat_id,
@@ -9,7 +9,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions
 from telethon import types
 from Goku.events import register
-from FallenRobot import telethn as tbot
+from Goku import telethn as tbot
 import os
 
 
