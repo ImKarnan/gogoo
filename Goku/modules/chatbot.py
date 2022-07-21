@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import FallenRobot.modules.sql.chatbot_sql as sql
+import Goku.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -30,10 +30,10 @@ from telegram.ext import (
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from FallenRobot import dispatcher, updater, SUPPORT_CHAT
-from FallenRobot.modules.log_channel import gloggable
+from Goku.modules.helper_funcs.filters import CustomFilters
+from Goku.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from Goku import dispatcher, updater, SUPPORT_CHAT
+from Goku.modules.log_channel import gloggable
 
 
 @run_async
