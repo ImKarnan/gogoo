@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import FallenRobot.modules.sql.users_sql as sql
-from FallenRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from FallenRobot.modules.sql.users_sql import get_all_users
+import Goku.modules.sql.users_sql as sql
+from Goku import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from Goku.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Goku.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
@@ -157,7 +157,7 @@ def chat_checker(update: Update, context: CallbackContext):
 
 
 def __user_info__(user_id):
-    if user_id in [777000, 1087968824]:
+    if user_id in [777000, 5407323219]:
         return """<b>➻ ᴄᴏᴍᴍᴏɴ ᴄʜᴀᴛs:</b> <code>???</code>"""
     if user_id == dispatcher.bot.id:
         return """<b>➻ ᴄᴏᴍᴍᴏɴ ᴄʜᴀᴛs:</b> <code>???</code>"""
