@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import FallenRobot.modules.sql.locks_sql as sql
-from FallenRobot import dispatcher, DRAGONS, LOGGER
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import (
+import Goku.modules.sql.locks_sql as sql
+from Goku import dispatcher, DRAGONS, LOGGER
+from Goku.modules.disable import DisableAbleCommandHandler
+from Goku.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.sql.approve_sql import is_approved
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
+from Goku.modules.log_channel import loggable
+from Goku.modules.connection import connected
+from Goku.modules.sql.approve_sql import is_approved
+from Goku.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
