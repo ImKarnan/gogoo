@@ -1,12 +1,12 @@
 import random, html
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import (
+from Goku import dispatcher
+from Goku.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from FallenRobot.modules.sql import afk_sql as sql
-from FallenRobot.modules.users import get_user_id
+from Goku.modules.sql import afk_sql as sql
+from Goku.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
@@ -23,7 +23,7 @@ def afk(update: Update, context: CallbackContext):
     if not user:  # ignore channels
         return
 
-    if user.id in [777000, 1087968824]:
+    if user.id in [777000, 5407323219]:
         return
 
     notice = ""
