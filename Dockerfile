@@ -64,11 +64,11 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/FallenRobot
+# Copy Python Requirements to /root/Goku
 RUN git clone -b shiken https://github.com/imkarnan/Goku /root/Goku
 WORKDIR /root/Goku
 
-#Copy config file to /root/FallenRobot/FallenRobot
+#Copy config file to /root/Goku/Goku
 COPY ./Goku/sample_config.py ./Goku/config.py* /root/Goku/Goku/
 
 ENV PATH="/home/bot/bin:$PATH"
